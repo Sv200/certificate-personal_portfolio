@@ -1,0 +1,95 @@
+
+body{
+    background-color:#EAF6F6
+  ;
+  font-family:Helvetica ;
+  font-size:1.5rem;
+  }
+  
+  #navbar{
+    background-color:#66BFBF;
+  padding:1.5rem;
+  position:fixed;
+  top:0;
+  width:100%;
+  color:#66BFBF;
+  border:2px solid black;
+  word-spacing:1.5rem;
+  display:flex;
+  }
+  .center{
+    text-align:center;
+    font-family:Helvetica;
+    color:#66BFBF ;
+  }
+  
+  h1{
+    margin:1rem;
+     font-family:Helvetica;
+  
+  }
+  .pass{
+     text-align:center;
+      margin:0;
+  }
+  
+  
+  
+  #welcome-section{
+  padding-left:3rem;
+  line-height:2rem;
+  
+  }
+  #skills{
+    padding-left:3rem;
+  line-height:3rem;
+  
+  }
+  
+  #github-image{
+     height: 2.3em;
+    width: 1.8em;
+    border-radius: 20%;
+    padding-bottom: 1rem;
+   margin:.5rem;
+  }
+  .contact-icon{
+    height: 1.4em;
+    width: 1.8em;
+    border-radius: 0%;
+   
+    margin:2rem;
+  }
+  #contact{
+     text-align:center;
+     
+  }
+  #projects{
+  
+    padding-left:3rem;
+  line-height:2rem;
+  
+  }
+  
+  hr{  
+      border-style: none;
+  border-top-style: dotted ;
+  border-color: grey;
+  border-width: 5px;
+  width : 8%;
+  }
+  
+  
+  footer{
+     text-align:center;
+  background-color:		#ADD8E6 ;
+  padding:.5px;
+  }
+  
+  @media(min-width:10px) and(max-width:679px){
+    #navbar{
+      height:100%;
+      width:34vw;
+    }
+  }
+  
